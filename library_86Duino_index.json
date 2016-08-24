@@ -1,0 +1,24 @@
+{
+  "libraries": [
+    {
+      "name": "RTClib",
+      "version": "1.0.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit (info@adafruit.com)",
+      "sentence": "Library offering support for uStepper",
+      "paragraph": "Timer support library",
+      "website": "https://github.com/uStepper/uStepper/tree/master/",
+      "category": "Timing",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/RTC_86/archive/support-86Duino-board.zip",
+      "archiveFileName": "RTClib-1.0.0.zip",
+      "size": 11302,
+      "checksum": "SHA-256:26bf16a5ab1af891e11c0a0812b6d352f28ee5e57b3516129fda4c02ccf5b564"
+    }
+  ]
+}

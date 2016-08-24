@@ -1,0 +1,154 @@
+{
+  "packages": [
+    {
+      "maintainer": "DMP Electronics Inc.", 
+      "help": {
+        "online": "http://www.86duino.com"
+      }, 
+      "websiteURL": "https://github.com/roboard/86duino", 
+      "platforms": [
+        {
+          "category": "86Duino", 
+          "name": "86Duino", 
+          "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-3.1.4.zip", 
+          "checksum": "SHA-256:d8c3dadcec0f59f47502cb42404131583fd72278c6abc4fd54f0292a07547ec3", 
+          "help": {
+            "online": "http://www.86duino.com"
+          }, 
+          "version": "3.1.4", 
+          "architecture": "x86", 
+          "archiveFileName": "86duino-3.1.4.zip", 
+          "boards": [
+            {
+              "name": "86Duino Zero/One/EduCake/PLC"
+            }
+          ], 
+          "toolsDependencies": [
+            {
+              "packager": "86duino",
+              "name": "djgpp",
+              "version": "6.1.0"
+            },
+			{
+			  "packager": "86duino",
+			  "name": "upx309w",
+			  "version": "1.0.1"
+			},
+			{
+			  "packager": "86duino",
+			  "name": "x86",
+			  "version": "1.1"
+			}
+		  ], 
+		  "size": "13404782"
+		}
+      ], 
+      "tools": [
+        {
+          "name": "djgpp",
+          "version": "6.1.0", 
+          "systems": [
+            {
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-djgpp-6.1.0-win32.zip", 
+              "checksum": "SHA-256:16b2a290e7bd43616b515f4d65a22b93e7228a98173685a6a123664e192ad67d", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "86duino-djgpp-6.1.0-win32.zip", 
+              "size": "83566161"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-djgpp-6.1.0-mac.tar.gz",
+              "archiveFileName": "86duino-djgpp-6.1.0-mac.tar.gz",
+              "checksum": "SHA-256:157a0c493f51a862532abad6beb39af34c0fcce052b06feaff7fa14d7dad69eb",
+              "size": "46165381"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-djgpp-6.1.0-linux64.tar.gz",
+              "archiveFileName": "86duino-djgpp-6.1.0-linux64.tar.gz",
+              "checksum": "SHA-256:1609b8f62de2806b845981b19aeac454c3d6463762f2487a0fdd8f6d1b703cd3",
+              "size": "71454322"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-djgpp-6.1.0-linux32.tar.gz",
+              "archiveFileName": "86duino-djgpp-6.1.0-linux32.tar.gz",
+              "checksum": "SHA-256:4581ec3c82ddfbddd1610cfe8fff34a3368c0f78ca9fb7658d9e03285b9f2d66",
+              "size": "69267439"
+            }
+          ]
+        }, 
+        {
+          "name": "upx309w",
+          "version": "1.0.1", 
+          "systems": [
+            {
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-compressor-1.0.1-win32.zip", 
+              "checksum": "SHA-256:f229a4d9a1b574c0177a8d4e31064873fb2b2eb24a978946c96a309ada29a345", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "86duino-compressor-1.0.1-win32.zip", 
+              "size": "354086"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-compressor-1.0.1-mac.tar.gz",
+              "archiveFileName": "86duino-compressor-1.0.1-mac.tar.gz",
+              "checksum": "SHA-256:50a519dc209625420fa44e1e6e1bf652a681df6329d54980977772cba3a44d03",
+              "size": "932968"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-compressor-1.0.1-linux64.tar.gz",
+              "archiveFileName": "86duino-compressor-1.0.1-linux64.tar.gz",
+              "checksum": "SHA-256:8de4cea3b3a5c48a7b5457dbe5779c0c280fb8b3578c230c2e57c54e9f0652c7",
+              "size": "379437"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-compressor-1.0.1-linux32.tar.gz",
+              "archiveFileName": "86duino-compressor-1.0.1-linux32.tar.gz",
+              "checksum": "SHA-256:06446b93e323c61792fefc5c3c903ea468de85341b0e8f08c64214ede03f6dda",
+              "size": "372351"
+            }
+          ]
+        },
+        {
+          "name": "x86",
+          "version": "1.1",
+          "systems": [
+            {
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-v86dude-1.1-win32.zip", 
+              "checksum": "SHA-256:aaf8d54eb2036124150d71e87dfadd917e64a25fcf8d48a6e57cd5f3e93ece5a", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "86duino-uploader-1.1-win32.zip", 
+              "size": "51317"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-v86dude-1.1-mac.tar.gz",
+              "archiveFileName": "86duino-v86dude-1.1-mac.tar.gz",
+              "checksum": "SHA-256:722ca9adca11347b2000a300b9b82a9882e944e2c14d884de02b08842eb8e3c1",
+              "size": "6920"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-v86dude-1.1-linux64.tar.gz",
+              "archiveFileName": "86duino-v86dude-1.1-linux64.tar.gz",
+              "checksum": "SHA-256:a97827517ee8e1b0573f0f75b40845ed98f7ecb395ed07271902d6ac4b42aab7",
+              "size": "7585"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-v86dude-1.1-linux32.tar.gz",
+              "archiveFileName": "86duino-v86dude-1.1-linux32.tar.gz",
+              "checksum": "SHA-256:f3ba85b0b830b79ac7618795c9a0ee318c7d9232ef6f3f96c675eb96df8263b9",
+              "size": "7774"
+            }
+          ]
+        }
+      ], 
+      "email": "acen@dmp.com.tw", 
+      "name": "86duino"
+    }
+  ]
+}
