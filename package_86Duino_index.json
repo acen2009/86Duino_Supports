@@ -11,7 +11,7 @@
           "category": "86Duino", 
           "name": "86Duino", 
           "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-3.1.4.zip", 
-          "checksum": "SHA-256:0ec249d85ab031294065416fd857a60f2bfabebf770d4f3ce3770e5312875066", 
+          "checksum": "SHA-256:0276626e393a276e59b5cc461e10c68148abc77588997851b365ef2158b156b8", 
           "help": {
             "online": "http://www.86duino.com"
           }, 
@@ -40,7 +40,7 @@
 			  "version": "1.1"
 			}
 		  ], 
-		  "size": "13036842"
+		  "size": "13036834"
 		}
       ], 
       "tools": [
