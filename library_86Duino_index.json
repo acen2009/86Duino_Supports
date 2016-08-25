@@ -1,6 +1,266 @@
 {
   "libraries": [
-    {
+	{
+      "name": "AccelStepper",
+      "version": "1.5.3",
+      "author": "Mike McCauley",
+      "maintainer": "AirSpayce Pty Ltd. (info@airspayce.com)",
+      "sentence": "AccelStepper library provides an object-oriented interface for 2, 3 or 4 pin stepper motors.",
+      "paragraph": "",
+      "website": "http://www.airspayce.com/mikem/arduino/AccelStepper/",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/AccelStepper-1.5.3.zip",
+      "archiveFileName": "AccelStepper-1.5.3.zip",
+      "size": 110121,
+      "checksum": "SHA-256:9ac376d8b8b8ae177ab35fe477e413f85487ab123c585118d162603c00424c5a"
+    },
+	{
+      "name": "Bounce2",
+      "version": "2.2.1",
+      "author": "Thomas O Fredericks",
+      "maintainer": "Thomas O Fredericks (tof@t-o-f.info)",
+      "sentence": "Debouncing library for Arduino and Wiring",
+      "paragraph": "Deboucing switches and toggles is important",
+      "website": "https://github.com/thomasfredericks/Bounce2",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Bounce2-2.21.zip",
+      "archiveFileName": "Bounce2-2.21.zip",
+      "size": 78501,
+      "checksum": "SHA-256:fa9b3ce371f5911bbd9e0d2cb68326db4f89691667d8028d2d0880d1842a475f"
+    },
+	{
+      "name": "Debounce",
+      "version": "1.0.0",
+      "author": "Thomas Ouellet Fredericks",
+      "maintainer": "Thomas Ouellet Fredericks (mrtoftrash@gmail.com)",
+      "sentence": "Debounce library debounces digital inputs",
+      "paragraph": "",
+      "website": "http://playground.arduino.cc/Code/Debounce",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Debounce-1.0.0.zip",
+      "archiveFileName": "Debounce-1.0.0.zip",
+      "size": 68643,
+      "checksum": "SHA-256:5ed729439db5630471883c3a3634a4ed97a3ca577b279d3782157e33a4428a32"
+    },
+	{
+      "name": "DHT",
+      "version": "1.2.3",
+      "author": "Adafruit",
+      "maintainer": "Adafruit (info@adafruit.com)",
+      "sentence": "Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors",
+      "paragraph": "",
+      "website": "https://github.com/adafruit/DHT-sensor-library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/DHT-1.2.3.zip",
+      "archiveFileName": "DHT-1.2.3.zip",
+      "size": 8783,
+      "checksum": "SHA-256:dea849f3afac64d34fd2fad160c228aaf7bd4123c7729ad288ee6a0ca8406ee2"
+    },
+	{
+      "name": "HttpClient",
+      "version": "2.2.0",
+      "author": "Adrian McEwen",
+      "maintainer": "Adrian McEwen (adrianm@mcqn.com)",
+      "sentence": "Library to easily make HTTP GET, POST and PUT requests to a web server",
+      "paragraph": "orks with any class derived from Client - so switching between Ethernet, WiFi and GSMClient requires minimal code changes",
+      "website": "http://github.com/amcewen/HttpClient",
+      "category": "Communication",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/HttpClient-2.2.0.zip",
+      "archiveFileName": "HttpClient-2.2.0.zip",
+      "size": 12857,
+      "checksum": "SHA-256:827b083d1b10f8f2da2ad567be5eccfaf959d0b30a2842eb8ce7cf480af9d9c2"
+    },
+	{
+      "name": "Keypad",
+      "version": "1.0.0",
+      "author": "Mark Stanley, Alexander Brevig",
+      "maintainer": "Community https://github.com/Chris--A/Keypad",
+      "sentence": "Keypad is a library for using matrix style keypads with the 86Duino",
+      "paragraph": "",
+      "website": "http://playground.arduino.cc/Code/Keypad",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Keypad-1.0.0.zip",
+      "archiveFileName": "Keypad-1.0.0.zip",
+      "size": 18104,
+      "checksum": "SHA-256:5fe7f0d15fdf57421e868e78284b632ad64264f5cbfc47c51b9b412426d8db36"
+    },
+	{
+      "name": "LedControl",
+      "version": "1.0.6",
+      "author": "Eberhard Fahle",
+      "maintainer": "Eberhard Fahle (e.fahle@wayoda.org)",
+      "sentence": "A library for the MAX7219 and the MAX7221 Led display drivers",
+      "paragraph": "The library supports multiple daisychained drivers and supports Led-Matrix displays as well as 7-Segment displays",
+      "website": "http://wayoda.github.io/LedControl/",
+      "category": "Display",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/LedControl-1.0.6.zip"
+      "archiveFileName": "LedControl-1.0.6.zip",
+      "size": 10069,
+      "checksum": "SHA-256:afa45ce2a09470f14f5436a00166b89c8fb62178edd534ce3576869946d37d62"
+    },
+	{
+      "name": "LiquidCrystal_I2C",
+      "version": "2.0.0",
+      "author": "DFROBOT",
+      "maintainer": "DFROBOT (www.dfrobot.com)",
+      "sentence": "All functions of the regular LiquidCrystal_I2C Library are supported",
+      "paragraph": "The library also has aliases for most of the functions listed in the LCD API 1.0 by Dale Wentz",
+      "website": "http://hmario.home.xs4all.nl/arduino/LiquidCrystal_I2C/",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/LiquidCrystal_I2C-2.0.0.zip",
+      "archiveFileName": "LiquidCrystal_I2C-2.0.0.zip",
+      "size": 1253132,
+      "checksum": "SHA-256:dd4919f0fe5c7fcac50166057636bb09f45a143d9183fb5591d65f67d542319f"
+    },
+	{
+      "name": "Matrix",
+      "version": "1.0.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit (info@adafruit.com)",
+      "sentence": "The Matrix library allows you to control a large number of LEDs, with easy-to-use (but expensive) MAX7219 chips. Sprite is used with Matrix, to draw shapes",
+      "paragraph": "",
+      "website": "https://www.pjrc.com/teensy/td_libs_Matrix.html",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Matrix-1.0.0.zip",
+      "archiveFileName": "Matrix-1.0.0.zip",
+      "size": 10108,
+      "checksum": "SHA-256:3e7feb03fa67cf8b74d2df63ad06d8b48fe4eae2c72b616e3a9c75b5a8a6edaf"
+    },
+	{
+      "name": "Messenger",
+      "version": "1.0.0",
+      "author": "Thomas Ouellet Fredericks",
+      "maintainer": "Thomas Ouellet Fredericks (mrtoftrash@gmail.com)",
+      "sentence": "Messenger is a "toolkit" that facilitates the parsing of ASCII messages",
+      "paragraph": "Messenger buffers characters until it receives a carriage return (CR). It then considers the message complete and available. The message is split into many elements as defined by a separator. The default separator is the space character, but can be any character other than NULL, LF or CR",
+      "website": "http://playground.arduino.cc/Code/Messenger",
+      "category": "Communication",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Messenger-1.0.0.zip",
+      "archiveFileName": "Messenger-1.0.0.zip",
+      "size": 6024,
+      "checksum": "SHA-256:ef5ecdf25bc6405fcba9e5c840ca8fff8333b9bf46e1838438602d12ad1ebcb5"
+    },
+	{
+      "name": "ModbusTCP",
+      "version": "1.0.0",
+      "author": "Dee Wykoff and Martin Pettersson",
+      "maintainer": "Dee Wykoff and Martin Pettersson",
+      "sentence": "A Modbus TCP class for Arduino and either Ethernet or Adafruit CC3000 WiFi shield that includes support for 32-bit integer and float operations.",
+      "paragraph": "",
+      "website": "https://github.com/acen2009/ModbusTCP",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/ModbusTCP-1.0.0.zip",
+      "archiveFileName": "ModbusTCP-1.0.0.zip",
+      "size": 8264,
+      "checksum": "SHA-256:9004204593bdb06b417be3949fcd6580b72468a58f4b2b52bf360bb18d5e4d57"
+    },
+	{
+      "name": "PS2X_lib",
+      "version": "1.0.0",
+      "author": "Bill Porter",
+      "maintainer": "Bill Porter (www.billporter.info)",
+      "sentence": "A fork of the PS2X library to access a Playstation 2 controller on 86Duino",
+      "paragraph": "",
+      "website": "https://github.com/acen2009/PS2X_NA",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/PS2X_lib-1.0.0.zip",
+      "archiveFileName": "PS2X_lib-1.0.0.zip",
+      "size": 10959,
+      "checksum": "SHA-256:35d0b915bf2a041e132ab948224b9d5cc2a6712e89a649d3c4e90260bbe27e8f"
+    },
+	{
+      "name": "Psx",
+      "version": "1.0.0",
+      "author": "Arduino",
+      "maintainer": "Arduino (http://playground.arduino.cc/Main/PSXLibrary)",
+      "sentence": "PSX library allows an 86Duino to interface with a standard digital Playstation 1 controller",
+      "paragraph": "",
+      "website": "http://playground.arduino.cc/Main/PSXLibrary",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Psx-1.0.0.zip",
+      "archiveFileName": "Psx-1.0.0.zip",
+      "size": 17588,
+      "checksum": "SHA-256:5c12186e46110f6b4c54504ae236423766b0fff88ed7e274b3c8d295ebe50586"
+    },
+	{
       "name": "RTClib",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -15,10 +275,170 @@
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/acen2009/RTC_86/archive/support-86Duino-board.zip",
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/RTClib-1.0.0.zip",
       "archiveFileName": "RTClib-1.0.0.zip",
-      "size": 11302,
-      "checksum": "SHA-256:26bf16a5ab1af891e11c0a0812b6d352f28ee5e57b3516129fda4c02ccf5b564"
+      "size": 10083,
+      "checksum": "SHA-256:0ad6451d4bfa88994c3f54f1ea6e5e4f276c72f30ea6081e0e56f5b8001c22a8"
+    },
+	{
+      "name": "SimpleMessageSystem",
+      "version": "1.0.0",
+      "author": "Arduino",
+      "maintainer": "Arduino (http://tof.danslchamp.org)",
+      "sentence": "SimpleMessageSystem library facilitates communication with terminals or message based programs like Pure Data or Max/Msp",
+      "paragraph": "All Serial input and output will be made and interpreted as ASCII characters",
+      "website": "http://playground.arduino.cc/Code/SimpleMessageSystem",
+      "category": "Communication",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/SimpleMessageSystem-1.0.0.zip",
+      "archiveFileName": "SimpleMessageSystem-1.0.0.zip",
+      "size": 141640,
+      "checksum": "SHA-256:7e15bef15be82a94bc54c919311aa784a2b2321a47c4cd1a36dc28ebf39f301d"
+    },
+	{
+      "name": "SpiderL3S",
+      "version": "1.0.0",
+      "author": "yljhao",
+      "maintainer": "FunMaker Ltd (http://www.funmaker.com.tw/)",
+      "sentence": "SpiderL3S library porting from CC3000 host driver, which works with Spider_L3S WiFi module",
+      "paragraph": "",
+      "website": "https://github.com/acen2009/Arduino_SpiderL3S_library",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/SpiderL3S-1.0.0.zip",
+      "archiveFileName": "SpiderL3S-1.0.0.zip",
+      "size": 112032,
+      "checksum": "SHA-256:5b8de25ec2d6292e24d3e22efc97971dd5881a9991f4555c6f3949e4a0d00946"
+    },
+	{
+      "name": "ThingSpeak",
+      "version": "1.1.1",
+      "author": "MathWorks",
+      "maintainer": "MathWorks (thingspeak@mathworks.com)",
+      "sentence": "ThingSpeak Communication Library for 86Duino",
+      "paragraph": "ThingSpeak is a free IoT service for building systems that collect, analyze, and react to their environments",
+      "website": "https://www.thingspeak.com",
+      "category": "Communication",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/ThingSpeak-1.1.1.zip",
+      "archiveFileName": "ThingSpeak-1.1.1.zip",
+      "size": 141923,
+      "checksum": "SHA-256:3c816a4c44eeb0d3e1b5fa5cad04d70bb143b133c3207a8d6e944979b5d0d404"
+    },
+	{
+      "name": "TinyGPS",
+      "version": "1.0.0",
+      "author": "Mikal Hart",
+      "maintainer": "Mikal Hart (http://arduiniana.org/)",
+      "sentence": "A compact GPS parsing library",
+      "paragraph": "",
+      "website": "https://github.com/mikalhart/TinyGPS",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/TinyGPS-1.0.0.zip",
+      "archiveFileName": "TinyGPS-1.0.0.zip",
+      "size": 11843,
+      "checksum": "SHA-256:d07cb9b4a9e178181a7b6d9445767f2281d00c60a2296847dcc2b9c62d08b40b"
+    },
+	{
+      "name": "Twitter",
+      "version": "1.0.0",
+      "author": "NeoCat \u003cneocat@neocat.jp\u003e",
+      "maintainer": "NeoCat \u003cneocat@neocat.jp\u003e",
+      "sentence": "Twitter Library is a library for 86Duino to tweet on Twitter",
+      "paragraph": "It is convenient to making a bot for Twitter which posts messages automatically from various sensors",
+      "website": "http://playground.arduino.cc/Code/TwitterLibrary",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Twitter-1.0.0.zip",
+      "archiveFileName": "Twitter-1.0.0.zip",
+      "size": 4687,
+      "checksum": "SHA-256:2547d40b2c0708eaf32e8fbae825e7aa0086995efcb5defe05e58ce74709051c"
+    },
+	{
+      "name": "Webduino",
+      "version": "1.0.0",
+      "author": "Ben Combee, Ran Talbott, Christopher Lee, Martin Lormes Francisco M Cuenca-Acuna",
+      "maintainer": "Ben Combee, Ran Talbott, Christopher Lee, Martin Lormes Francisco M Cuenca-Acuna",
+      "sentence": "This is an Arduino-based Web Server library, originally developed for a class at NYC Resistor. It's called Webduino, and it's an extensible web server library for the 86Duino",
+      "paragraph": "",
+      "website": "https://github.com/acen2009/Webduino",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/Webduino-1.0.0.zip",
+      "archiveFileName": "Webduino-1.0.0.zip",
+      "size": 31732,
+      "checksum": "SHA-256:bf1a9a8910fe81406110d01f93147c045cba2c5cdc779d7f6c22af1b713ff453"
+    },
+	{
+      "name": "xbee",
+      "version": "0.6.0",
+      "author": "Andrew Rapp",
+      "maintainer": "Andrew Rapp (andrew.rapp@gmail.com)",
+      "sentence": "Library for talking to to various wireless XBee modules from Digi",
+      "paragraph": "This supports various devices, configured to use the more advanced "API" mode",
+      "website": "https://github.com/andrewrapp/xbee-arduino",
+      "category": "Communication",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/xbee-0.6.0.zip",
+      "archiveFileName": "xbee-0.6.0.zip",
+      "size": 425131,
+      "checksum": "SHA-256:006b5790095f77129a4099b7de3f7af460392142e8bed4c31f2f261b7526edda"
+    },
+	{
+      "name": "xively",
+      "version": "1.0.0",
+      "author": "Arduino",
+      "maintainer": "Arduino (www.arduino.cc)",
+      "sentence": "Xively_arduino library for 86Duino to make it easier to talk to Xively",
+      "paragraph": "",
+      "website": "https://github.com/xively/xively_arduino/",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/xively-1.0.0.zip",
+      "archiveFileName": "xively-1.0.0.zip",
+      "size": 20475,
+      "checksum": "SHA-256:b0acdde6fddef8a7e3ae27f25ccd75204e049bdc9eb2d800339a957baec74553"
     }
   ]
 }
