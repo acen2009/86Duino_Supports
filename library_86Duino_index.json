@@ -5,8 +5,8 @@
       "version": "1.5.3",
       "author": "Mike McCauley",
       "maintainer": "AirSpayce Pty Ltd. (info@airspayce.com)",
-      "sentence": "AccelStepper library provides an object-oriented interface for 2, 3 or 4 pin stepper motors.",
-      "paragraph": "",
+      "sentence": "AccelStepper library provides an object-oriented interface for 2, 3 or 4 pin stepper motors",
+      "paragraph": "AccelStepper library provides an object-oriented interface for 2, 3 or 4 pin stepper motors",
       "website": "http://www.airspayce.com/mikem/arduino/AccelStepper/",
       "category": "Device Control",
       "architectures": [
@@ -46,7 +46,7 @@
       "author": "Thomas Ouellet Fredericks",
       "maintainer": "Thomas Ouellet Fredericks (mrtoftrash@gmail.com)",
       "sentence": "Debounce library debounces digital inputs",
-      "paragraph": "",
+      "paragraph": "Debounce library debounces digital inputs",
       "website": "http://playground.arduino.cc/Code/Debounce",
       "category": "Other",
       "architectures": [
@@ -66,7 +66,7 @@
       "author": "Adafruit",
       "maintainer": "Adafruit (info@adafruit.com)",
       "sentence": "Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors",
-      "paragraph": "",
+      "paragraph": "Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors",
       "website": "https://github.com/adafruit/DHT-sensor-library",
       "category": "Sensors",
       "architectures": [
@@ -86,7 +86,7 @@
       "author": "Adrian McEwen",
       "maintainer": "Adrian McEwen (adrianm@mcqn.com)",
       "sentence": "Library to easily make HTTP GET, POST and PUT requests to a web server",
-      "paragraph": "orks with any class derived from Client - so switching between Ethernet, WiFi and GSMClient requires minimal code changes",
+      "paragraph": "Works with any class derived from Client - so switching between Ethernet, WiFi and GSMClient requires minimal code changes",
       "website": "http://github.com/amcewen/HttpClient",
       "category": "Communication",
       "architectures": [
@@ -106,7 +106,7 @@
       "author": "Mark Stanley, Alexander Brevig",
       "maintainer": "Community https://github.com/Chris--A/Keypad",
       "sentence": "Keypad is a library for using matrix style keypads with the 86Duino",
-      "paragraph": "",
+      "paragraph": "Keypad is a library for using matrix style keypads with the 86Duino",
       "website": "http://playground.arduino.cc/Code/Keypad",
       "category": "Device Control",
       "architectures": [
@@ -127,7 +127,7 @@
       "maintainer": "Eberhard Fahle (e.fahle@wayoda.org)",
       "sentence": "A library for the MAX7219 and the MAX7221 Led display drivers",
       "paragraph": "The library supports multiple daisychained drivers and supports Led-Matrix displays as well as 7-Segment displays",
-      "website": "http://wayoda.github.io/LedControl/",
+      "website": "http://wayoda.github.io/LedControl",
       "category": "Display",
       "architectures": [
         "x86"
@@ -135,7 +135,7 @@
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/LedControl-1.0.6.zip"
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/LedControl-1.0.6.zip",
       "archiveFileName": "LedControl-1.0.6.zip",
       "size": 10069,
       "checksum": "SHA-256:afa45ce2a09470f14f5436a00166b89c8fb62178edd534ce3576869946d37d62"
@@ -166,7 +166,7 @@
       "author": "Adafruit",
       "maintainer": "Adafruit (info@adafruit.com)",
       "sentence": "The Matrix library allows you to control a large number of LEDs, with easy-to-use (but expensive) MAX7219 chips. Sprite is used with Matrix, to draw shapes",
-      "paragraph": "",
+      "paragraph": "The Matrix library allows you to control a large number of LEDs, with easy-to-use (but expensive) MAX7219 chips. Sprite is used with Matrix, to draw shapes",
       "website": "https://www.pjrc.com/teensy/td_libs_Matrix.html",
       "category": "Device Control",
       "architectures": [
@@ -185,7 +185,7 @@
       "version": "1.0.0",
       "author": "Thomas Ouellet Fredericks",
       "maintainer": "Thomas Ouellet Fredericks (mrtoftrash@gmail.com)",
-      "sentence": "Messenger is a "toolkit" that facilitates the parsing of ASCII messages",
+      "sentence": "Messenger is a toolkit that facilitates the parsing of ASCII messages",
       "paragraph": "Messenger buffers characters until it receives a carriage return (CR). It then considers the message complete and available. The message is split into many elements as defined by a separator. The default separator is the space character, but can be any character other than NULL, LF or CR",
       "website": "http://playground.arduino.cc/Code/Messenger",
       "category": "Communication",
@@ -205,8 +205,8 @@
       "version": "1.0.0",
       "author": "Dee Wykoff and Martin Pettersson",
       "maintainer": "Dee Wykoff and Martin Pettersson",
-      "sentence": "A Modbus TCP class for Arduino and either Ethernet or Adafruit CC3000 WiFi shield that includes support for 32-bit integer and float operations.",
-      "paragraph": "",
+      "sentence": "A Modbus TCP class for Arduino and either Ethernet or Adafruit CC3000 WiFi shield that includes support for 32-bit integer and float operations",
+      "paragraph": "A Modbus TCP class for Arduino and either Ethernet or Adafruit CC3000 WiFi shield that includes support for 32-bit integer and float operations",
       "website": "https://github.com/acen2009/ModbusTCP",
       "category": "Device Control",
       "architectures": [
@@ -226,7 +226,7 @@
       "author": "Bill Porter",
       "maintainer": "Bill Porter (www.billporter.info)",
       "sentence": "A fork of the PS2X library to access a Playstation 2 controller on 86Duino",
-      "paragraph": "",
+      "paragraph": "A fork of the PS2X library to access a Playstation 2 controller on 86Duino",
       "website": "https://github.com/acen2009/PS2X_NA",
       "category": "Device Control",
       "architectures": [
@@ -246,7 +246,7 @@
       "author": "Arduino",
       "maintainer": "Arduino (http://playground.arduino.cc/Main/PSXLibrary)",
       "sentence": "PSX library allows an 86Duino to interface with a standard digital Playstation 1 controller",
-      "paragraph": "",
+      "paragraph": "PSX library allows an 86Duino to interface with a standard digital Playstation 1 controller",
       "website": "http://playground.arduino.cc/Main/PSXLibrary",
       "category": "Device Control",
       "architectures": [
@@ -306,7 +306,7 @@
       "author": "yljhao",
       "maintainer": "FunMaker Ltd (http://www.funmaker.com.tw/)",
       "sentence": "SpiderL3S library porting from CC3000 host driver, which works with Spider_L3S WiFi module",
-      "paragraph": "",
+      "paragraph": "SpiderL3S library porting from CC3000 host driver, which works with Spider_L3S WiFi module",
       "website": "https://github.com/acen2009/Arduino_SpiderL3S_library",
       "category": "Device Control",
       "architectures": [
@@ -346,7 +346,7 @@
       "author": "Mikal Hart",
       "maintainer": "Mikal Hart (http://arduiniana.org/)",
       "sentence": "A compact GPS parsing library",
-      "paragraph": "",
+      "paragraph": "A compact GPS parsing library",
       "website": "https://github.com/mikalhart/TinyGPS",
       "category": "Device Control",
       "architectures": [
@@ -381,12 +381,32 @@
       "checksum": "SHA-256:2547d40b2c0708eaf32e8fbae825e7aa0086995efcb5defe05e58ce74709051c"
     },
 	{
+      "name": "USB Host Shield Library 2.0",
+      "version": "1.1.1",
+      "author": "Oleg Mazurov (Circuits@Home) <mazurov@circuitsathome.com>, Kristian Lauszus (TKJ Electronics) <kristianl@tkjelectronics.com>, Andrew Kroll <xxxajk@gmail.com>, Alexei Glushchenko (Circuits@Home) <alex-gl@mail.ru>",
+      "maintainer": "Oleg Mazurov (Circuits@Home) <mazurov@circuitsathome.com>, Kristian Lauszus (TKJ Electronics) <kristianl@tkjelectronics.com>, Andrew Kroll <xxxajk@gmail.com>",
+      "sentence": "Revision 2.0 of MAX3421E-based USB Host Shield Library",
+      "paragraph": "Supports HID devices, FTDI, ADK, ACM, PL2303, Bluetooth HID devices, SPP communication and mass storage devices. Furthermore it supports PS3, PS4, PS Buzz, Wii and Xbox controllers",
+      "website": "https://github.com/felis/USB_Host_Shield_2.0",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/USB_Host_Shield_20.zip",
+      "archiveFileName": "USB_Host_Shield_20.zip",
+      "size": 362497,
+      "checksum": "SHA-256:fa6130d8c7d42ca6b85d750f0ae421241c1bfbe8402b3763919e32980cf8521b"
+    },
+	{
       "name": "Webduino",
       "version": "1.0.0",
       "author": "Ben Combee, Ran Talbott, Christopher Lee, Martin Lormes Francisco M Cuenca-Acuna",
       "maintainer": "Ben Combee, Ran Talbott, Christopher Lee, Martin Lormes Francisco M Cuenca-Acuna",
       "sentence": "This is an Arduino-based Web Server library, originally developed for a class at NYC Resistor. It's called Webduino, and it's an extensible web server library for the 86Duino",
-      "paragraph": "",
+      "paragraph": "This is an Arduino-based Web Server library, originally developed for a class at NYC Resistor. It's called Webduino, and it's an extensible web server library for the 86Duino",
       "website": "https://github.com/acen2009/Webduino",
       "category": "Other",
       "architectures": [
@@ -406,7 +426,7 @@
       "author": "Andrew Rapp",
       "maintainer": "Andrew Rapp (andrew.rapp@gmail.com)",
       "sentence": "Library for talking to to various wireless XBee modules from Digi",
-      "paragraph": "This supports various devices, configured to use the more advanced "API" mode",
+      "paragraph": "This supports various devices, configured to use the more advanced API mode",
       "website": "https://github.com/andrewrapp/xbee-arduino",
       "category": "Communication",
       "architectures": [
@@ -426,7 +446,7 @@
       "author": "Arduino",
       "maintainer": "Arduino (www.arduino.cc)",
       "sentence": "Xively_arduino library for 86Duino to make it easier to talk to Xively",
-      "paragraph": "",
+      "paragraph": "Xively_arduino library for 86Duino to make it easier to talk to Xively",
       "website": "https://github.com/xively/xively_arduino/",
       "category": "Other",
       "architectures": [
