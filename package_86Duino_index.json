@@ -134,8 +134,8 @@
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-v86dude-1.1-linux64.tar.gz",
               "archiveFileName": "86duino-v86dude-1.1-linux64.tar.gz",
-              "checksum": "SHA-256:a97827517ee8e1b0573f0f75b40845ed98f7ecb395ed07271902d6ac4b42aab7",
-              "size": "7585"
+              "checksum": "SHA-256:5a6b80d1a549696be3135bb25058c7e07a4a2d3344417529aca0c1f768d6cefe",
+              "size": "7583"
             },
             {
               "host": "i686-pc-linux-gnu",
