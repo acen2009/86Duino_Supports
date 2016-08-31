@@ -66,15 +66,15 @@
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-djgpp-6.1.0-linux64.tar.gz",
               "archiveFileName": "86duino-djgpp-6.1.0-linux64.tar.gz",
-              "checksum": "SHA-256:1609b8f62de2806b845981b19aeac454c3d6463762f2487a0fdd8f6d1b703cd3",
-              "size": "71454322"
+              "checksum": "SHA-256:46a56b146c085b140a8cf426c767e0ba7000c74b0032bf6ae608067b50085849",
+              "size": "74344989"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-djgpp-6.1.0-linux32.tar.gz",
               "archiveFileName": "86duino-djgpp-6.1.0-linux32.tar.gz",
-              "checksum": "SHA-256:4581ec3c82ddfbddd1610cfe8fff34a3368c0f78ca9fb7658d9e03285b9f2d66",
-              "size": "69267439"
+              "checksum": "SHA-256:5fdea0bd16b9db5e3d751b98647ac9e62bd5b8fbd4ba70d14ebe07298cab4e08",
+              "size": "72288792"
             }
           ]
         }, 
@@ -100,15 +100,15 @@
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-compressor-1.0.1-linux64.tar.gz",
               "archiveFileName": "86duino-compressor-1.0.1-linux64.tar.gz",
-              "checksum": "SHA-256:8de4cea3b3a5c48a7b5457dbe5779c0c280fb8b3578c230c2e57c54e9f0652c7",
-              "size": "379437"
+              "checksum": "SHA-256:751fa91c59a37c63e8f39f9dea565bac4a74092333ea58b20a6546155262484c",
+              "size": "383065"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-compressor-1.0.1-linux32.tar.gz",
               "archiveFileName": "86duino-compressor-1.0.1-linux32.tar.gz",
-              "checksum": "SHA-256:06446b93e323c61792fefc5c3c903ea468de85341b0e8f08c64214ede03f6dda",
-              "size": "372351"
+              "checksum": "SHA-256:6eb3a3fdf32442da19cec7738291e0a4b4acdb3fb46bc9cf85304a83843ed0f6",
+              "size": "376193"
             }
           ]
         },
@@ -134,15 +134,15 @@
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-v86dude-1.1-linux64.tar.gz",
               "archiveFileName": "86duino-v86dude-1.1-linux64.tar.gz",
-              "checksum": "SHA-256:5a6b80d1a549696be3135bb25058c7e07a4a2d3344417529aca0c1f768d6cefe",
-              "size": "7583"
+              "checksum": "SHA-256:47481a1171447663412e2b9e61402eef97558bb432d6353bb57bd2743f6c144c",
+              "size": "7760"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-v86dude-1.1-linux32.tar.gz",
               "archiveFileName": "86duino-v86dude-1.1-linux32.tar.gz",
-              "checksum": "SHA-256:f3ba85b0b830b79ac7618795c9a0ee318c7d9232ef6f3f96c675eb96df8263b9",
-              "size": "7774"
+              "checksum": "SHA-256:a6fd4900776cf9c116be914676623a4ee297a1f4e9bccbd6fdf3021429898032",
+              "size": "7983"
             }
           ]
         }
