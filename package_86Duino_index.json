@@ -41,6 +41,41 @@
 			}
 		  ], 
 		  "size": "12737085"
+		},
+		{
+          "category": "86Duino", 
+          "name": "86Duino", 
+          "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-3.0.1.zip", 
+          "checksum": "SHA-256:5864bfd8e3658503cdd7afff4c2e15f8598a11b81d865322d1e9cd4be1571f7e", 
+          "help": {
+            "online": "http://www.86duino.com"
+          }, 
+          "version": "3.0.1", 
+          "architecture": "x86", 
+          "archiveFileName": "86duino-3.0.1.zip", 
+          "boards": [
+            {
+              "name": "86Duino Zero/One/EduCake/PLC"
+            }
+          ], 
+          "toolsDependencies": [
+            {
+              "packager": "86duino",
+              "name": "djgpp",
+              "version": "6.1.0"
+            },
+			{
+			  "packager": "86duino",
+			  "name": "upx309w",
+			  "version": "1.0.1"
+			},
+			{
+			  "packager": "86duino",
+			  "name": "x86",
+			  "version": "1.1"
+			}
+		  ], 
+		  "size": "12738841"
 		}
       ], 
       "tools": [
