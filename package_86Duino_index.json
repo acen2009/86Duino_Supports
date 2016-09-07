@@ -118,10 +118,10 @@
           "systems": [
             {
               "url": "https://github.com/acen2009/86Duino_Supports/releases/download/V3.1.4/86duino-v86dude-1.1-win32.zip", 
-              "checksum": "SHA-256:aaf8d54eb2036124150d71e87dfadd917e64a25fcf8d48a6e57cd5f3e93ece5a", 
+              "checksum": "SHA-256:2a246259cdaaf28cfb932712446596930f7d30852050d83dce2a13a8e73e73e5", 
               "host": "i686-mingw32", 
               "archiveFileName": "86duino-uploader-1.1-win32.zip", 
-              "size": "51317"
+              "size": "35030"
             },
             {
               "host": "x86_64-apple-darwin",
