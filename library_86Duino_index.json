@@ -81,6 +81,26 @@
       "checksum": "SHA-256:dea849f3afac64d34fd2fad160c228aaf7bd4123c7729ad288ee6a0ca8406ee2"
     },
 	{
+      "name": "ESP8266",
+      "version": "1.0.0",
+      "author": "Wu Pengfei",
+      "maintainer": "Wu Pengfei (pengfei.wu@itead.cc)",
+      "sentence": "ESP8266 offers a complete and self-contained Wi-Fi networking solution, allowing it to either host the application or to offload all Wi-Fi networking functions from another application processor",
+      "paragraph": "",
+      "website": "https://github.com/itead/ITEADLIB_Arduino_WeeESP8266.git",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/ESP8266-1.0.0.zip",
+      "archiveFileName": "ESP8266-1.0.0.zip",
+      "size": 418569,
+      "checksum": "SHA-256:337275d172ad7f23344389385e43063e3e4237a76a87dad339d1e5b33d8a735e"
+    },
+	{
       "name": "HttpClient",
       "version": "2.2.0",
       "author": "Adrian McEwen",
