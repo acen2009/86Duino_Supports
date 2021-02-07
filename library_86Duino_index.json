@@ -22,7 +22,7 @@
     },
 	{
       "name": "Bounce2",
-      "version": "2.2.1",
+      "version": "2.21.0",
       "author": "Thomas O Fredericks",
       "maintainer": "Thomas O Fredericks (tof@t-o-f.info)",
       "sentence": "Debouncing library for Arduino and Wiring",
@@ -162,23 +162,23 @@
     },
 	{
       "name": "LiquidCrystal_I2C",
-      "version": "2.0.0",
-      "author": "DFROBOT",
-      "maintainer": "DFROBOT (www.dfrobot.com)",
-      "sentence": "All functions of the regular LiquidCrystal_I2C Library are supported",
-      "paragraph": "The library also has aliases for most of the functions listed in the LCD API 1.0 by Dale Wentz",
-      "website": "http://hmario.home.xs4all.nl/arduino/LiquidCrystal_I2C/",
-      "category": "Device Control",
+      "version": "1.1.2",
+      "author": "Frank de Brabander",
+      "maintainer": "Marco Schwartz \u003cmarcolivier.schwartz@gmail.com\u003e",
+      "sentence": "A library for I2C LCD displays.",
+      "paragraph": "The library allows to control I2C displays with functions extremely similar to LiquidCrystal library. THIS LIBRARY MIGHT NOT BE COMPATIBLE WITH EXISTING SKETCHES.",
+      "website": "https://github.com/marcoschwartz/LiquidCrystal_I2C",
+      "category": "Display",
       "architectures": [
         "x86"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/acen2009/86Duino_Supports/releases/download/Library_86Duino_package/LiquidCrystal_I2C-2.0.0.zip",
-      "archiveFileName": "LiquidCrystal_I2C-2.0.0.zip",
-      "size": 1253132,
-      "checksum": "SHA-256:dd4919f0fe5c7fcac50166057636bb09f45a143d9183fb5591d65f67d542319f"
+      "url": "https://downloads.arduino.cc/libraries/github.com/marcoschwartz/LiquidCrystal_I2C-1.1.2.zip",
+      "archiveFileName": "LiquidCrystal_I2C-1.1.2.zip",
+      "size": 20811,
+      "checksum": "SHA-256:7f288f4aa7ad33a25122727b057e49c48ef5f0d3a4943b7aca33ed2b78982adb"
     },
 	{
       "name": "Matrix",
@@ -479,6 +479,481 @@
       "archiveFileName": "xively-1.0.0.zip",
       "size": 20475,
       "checksum": "SHA-256:b0acdde6fddef8a7e3ae27f25ccd75204e049bdc9eb2d800339a957baec74553"
+    },
+    {
+      "name": "PubSubClient",
+      "version": "2.4.0",
+      "author": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "maintainer": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "sentence": "A client library for MQTT messaging.",
+      "paragraph": "MQTT is a lightweight messaging protocol ideal for small devices. This library allows you to send and receive MQTT messages. It supports the latest MQTT 3.1.1 protocol and can be configured to use the older MQTT 3.1 if needed. It supports all Arduino Ethernet Client compatible hardware, including the Intel Galileo/Edison, ESP8266 and TI CC3000.",
+      "website": "http://pubsubclient.knolleary.net",
+      "category": "Communication",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/knolleary/pubsubclient.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/knolleary/PubSubClient-2.4.0.zip",
+      "archiveFileName": "PubSubClient-2.4.0.zip",
+      "size": 38047,
+      "checksum": "SHA-256:16c9ee3569f6dcc2e1cc44b94d5df3a5b11162081d0db40b66f121239ba43669"
+    },
+    {
+      "name": "Protothreads",
+      "version": "1.4.0-arduino.beta.1",
+      "author": "Ben Artin \u003cben@artins.org\u003e,Adam Dunkels",
+      "maintainer": "Ben Artin \u003cben@artins.org\u003e",
+      "sentence": "A lightweight stackless threads library",
+      "paragraph": "Protothreads provide linear code execution for event-driven systems. Protothreads provide sequential flow of control without complex state machines or full multi-threading.",
+      "website": "https://gitlab.com/airbornemint/arduino-Protothreads",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://gitlab.com/airbornemint/arduino-protothreads.git",
+      "providesIncludes": [
+        "protothreads.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/gitlab.com/airbornemint/Protothreads-1.4.0-arduino.beta.1.zip",
+      "archiveFileName": "Protothreads-1.4.0-arduino.beta.1.zip",
+      "size": 267820,
+      "checksum": "SHA-256:0804a7fb770813058af86ee480fa50444b0f951e41cf1c8b541548a0039e62a7"
+    },
+    {
+      "name": "Adafruit SSD1306",
+      "version": "2.4.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "paragraph": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "website": "https://github.com/adafruit/Adafruit_SSD1306",
+      "category": "Display",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_SSD1306.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1306-2.4.0.zip",
+      "archiveFileName": "Adafruit_SSD1306-2.4.0.zip",
+      "size": 35860,
+      "checksum": "SHA-256:9dc777e744102e2006d31a36312d04bcbe0161238c26067ba010c1fbb8c2b2bd"
+    },
+    {
+      "name": "Adafruit SSD1306",
+      "version": "2.4.1",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "paragraph": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "website": "https://github.com/adafruit/Adafruit_SSD1306",
+      "category": "Display",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_SSD1306.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1306-2.4.1.zip",
+      "archiveFileName": "Adafruit_SSD1306-2.4.1.zip",
+      "size": 35880,
+      "checksum": "SHA-256:9e37441a5e44aede24ee83125562fec9719703ad8a85bbedf068510ec8e35156"
+    },
+    {
+      "name": "Adafruit SSD1306",
+      "version": "2.4.2",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "paragraph": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "website": "https://github.com/adafruit/Adafruit_SSD1306",
+      "category": "Display",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_SSD1306.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1306-2.4.2.zip",
+      "archiveFileName": "Adafruit_SSD1306-2.4.2.zip",
+      "size": 35967,
+      "checksum": "SHA-256:c755a953a9e22fad3651dccff4077d13078d02548027120f332ba23db032ace5"
+    },
+    {
+      "name": "Adafruit SSD1306",
+      "version": "2.4.3",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "paragraph": "SSD1306 oled driver library for monochrome 128x64 and 128x32 displays",
+      "website": "https://github.com/adafruit/Adafruit_SSD1306",
+      "category": "Display",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_SSD1306.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1306-2.4.3.zip",
+      "archiveFileName": "Adafruit_SSD1306-2.4.3.zip",
+      "size": 36111,
+      "checksum": "SHA-256:523d87ed6b7d4cb3f9f7ca1bca80a5c83f18972b8e31ae28f2e7a76e950fdfe7"
+    },
+    {
+      "name": "Adafruit MLX90614 Library",
+      "version": "1.1.1",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for the MLX90614 sensors in the Adafruit shop",
+      "paragraph": "Arduino library for the MLX90614 sensors in the Adafruit shop",
+      "website": "https://github.com/adafruit/Adafruit-MLX90614-Library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-MLX90614-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MLX90614_Library-1.1.1.zip",
+      "archiveFileName": "Adafruit_MLX90614_Library-1.1.1.zip",
+      "size": 9868,
+      "checksum": "SHA-256:8b1b854719c5265b6d1ac029f8e355a61de531895d20a478c51f471112b84b3b"
+    },
+    {
+      "name": "SparkFun ISL29125 Breakout",
+      "version": "1.0.1",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Arduino library showing basic functionality for the ISL29125 RGB Light Sensor Breakout Board.",
+      "paragraph": "The ISL29125 breakout board makes it very easy to sense and record the light intensity of the general red, green, and blue spectrums of visible light while rejecting IR from light sources.",
+      "website": "https://github.com/sparkfun/ISL29125_Breakout",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_ISL29125_Breakout_Arduino_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_ISL29125_Breakout-1.0.1.zip",
+      "archiveFileName": "SparkFun_ISL29125_Breakout-1.0.1.zip",
+      "size": 11774,
+      "checksum": "SHA-256:fcdbf045c1915f1c29ff79684bc695f9937d031768b466c254e36c3c1d22dad2"
+    },
+    {
+      "name": "SparkFun MS5803-14BA Pressure Sensor",
+      "version": "1.1.0",
+      "author": "Casey@SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Library for MS5803-14BA Pressure Sensor.",
+      "paragraph": "Provides I2C communication protocol for measuring wather depth, altitude, or other pressure readings.",
+      "website": "https://github.com/sparkfun/SparkFun_MS5803-14BA_Breakout_Arduino_Library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_MS5803-14BA_Breakout_Arduino_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_MS5803_14BA_Pressure_Sensor-1.1.0.zip",
+      "archiveFileName": "SparkFun_MS5803_14BA_Pressure_Sensor-1.1.0.zip",
+      "size": 9298,
+      "checksum": "SHA-256:17d0057e678a84faf76d03c1df6b7327c0540493d83ef2e34d4bba47b87e43f2"
+    },
+    {
+      "name": "SparkFun BME280",
+      "version": "2.0.9",
+      "author": "SparkFun Electronics",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "A library to drive the Bosch BME280 Altimeter and Pressure sensor",
+      "paragraph": "The SparkFun CCS811/BME280 Environmental Combo Breakout takes care of all your atmospheric-quality sensing needs with the popular CCS811 and BME280 ICs. This unique breakout provides a variety of environmental data, including barometric pressure, humidity, temperature, TVOCs and equivalent CO2 (or eCO2) levels.",
+      "website": "https://github.com/sparkfun/SparkFun_BME280_Arduino_Library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_BME280_Arduino_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_BME280-2.0.9.zip",
+      "archiveFileName": "SparkFun_BME280-2.0.9.zip",
+      "size": 42369,
+      "checksum": "SHA-256:1269d8fe7b2d001ed4023c8e8bbaf136f33f3058a7e4472aa4a0c1acef9ab0a9"
+    },
+    {
+      "name": "SparkFun TSL2561",
+      "version": "1.1.0",
+      "author": "Mike Grusin@SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "An Arduino Library for the \u003ca href=\"https://www.sparkfun.com/products/12055\"\u003eTSL2561 Luminosity Sensor Breakout\u003c/a\u003e from SparkFun Electronics.",
+      "paragraph": "Via I2C communication, the sensor conducts specific light ranges from 0.1-40k+ Lux.",
+      "website": "https://github.com/sparkfun/SparkFun_TSL2561_Arduino_Library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_TSL2561_Arduino_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_TSL2561-1.1.0.zip",
+      "archiveFileName": "SparkFun_TSL2561-1.1.0.zip",
+      "size": 10843,
+      "checksum": "SHA-256:74723e9a949f3c8ff7dbf45ab7099d6a209cea50d18383e09ab3b85d9792ea2d"
+    },
+    {
+      "name": "TaskScheduler",
+      "version": "3.2.2",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "Cooperative multitasking for Arduino, ESPx, STM32 and other microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds or microseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, event-driven task invocation via Status Request object, task IDs and Control Points for error handling and watchdog timer, Local Task Storage pointer (allowing use of same callback code for multiple tasks), layered task prioritization, std::functions (esp8266, esp32 only), overall task timeout, static and dynamic callback method binding.",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/arkhipenko/TaskScheduler.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/TaskScheduler-3.2.2.zip",
+      "archiveFileName": "TaskScheduler-3.2.2.zip",
+      "size": 114258,
+      "checksum": "SHA-256:031b2849715eba0b9ea33b6185d221c886e80728dc238fe9a5423bb1741a6731"
+    },
+    {
+      "name": "Adafruit TCS34725",
+      "version": "1.3.3",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Driver for Adafruit's TCS34725 RGB Color Sensor Breakout",
+      "paragraph": "Driver for Adafruit's TCS34725 RGB Color Sensor Breakout",
+      "website": "https://github.com/adafruit/Adafruit_TCS34725",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_TCS34725.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TCS34725-1.3.3.zip",
+      "archiveFileName": "Adafruit_TCS34725-1.3.3.zip",
+      "size": 796386,
+      "checksum": "SHA-256:ff7775b8cafae641c3582b2fe2dddbd122e0c155dd290b2d5398428ee1ddf87a"
+    },
+    {
+      "name": "STM32duino LSM6DSOX",
+      "version": "2.0.0",
+      "author": "SRA",
+      "maintainer": "stm32duino",
+      "sentence": "Ultra Low Power inertial measurement unit.",
+      "paragraph": "This library provides Arduino support for the Ultra Low Power LSM6DSOX for STM32 boards.",
+      "website": "https://github.com/stm32duino/LSM6DSOX",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/stm32duino/LSM6DSOX.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LSM6DSOX-2.0.0.zip",
+      "archiveFileName": "STM32duino_LSM6DSOX-2.0.0.zip",
+      "size": 66230,
+      "checksum": "SHA-256:4492a6dd61642ff90eaa0906c6be7ffc9513603226729cf45a7cfa73d699ed71"
+    },
+    {
+      "name": "Lime Labs HDC2080",
+      "version": "1.1.2",
+      "author": "Lime Labs GmbH, Texas Instruments, TinkeringTech, @stickbreaker",
+      "maintainer": "Lime Labs GmbH \u003ccode@limelabs.io\u003e",
+      "sentence": "An Arduino library to configure and communicate with the Texas Instruments HDC2080 temperature \u0026 humidity sensor",
+      "paragraph": "Uses I2C and the Arduino Wire library to communicate with the HDC2080",
+      "website": "https://github.com/lime-labs/HDC2080-Arduino",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lime-labs/HDC2080-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/lime-labs/Lime_Labs_HDC2080-1.1.2.zip",
+      "archiveFileName": "Lime_Labs_HDC2080-1.1.2.zip",
+      "size": 1052253,
+      "checksum": "SHA-256:7687a9248a961902babeeabd3192eb70f41aaf052794f6938d6d1a684492f26d"
+    },
+    {
+      "name": "BH1750",
+      "version": "1.2.0",
+      "author": "Christopher Laws",
+      "maintainer": "Christopher Laws",
+      "sentence": "Arduino library for the digital light sensor breakout boards containing the BH1750FVI IC",
+      "paragraph": "Pretty simple and robust BH1750 library. Arduino, ESP8266 \u0026 ESP32 compatible.",
+      "website": "https://github.com/claws/BH1750",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/claws/BH1750.git",
+      "providesIncludes": [
+        "BH1750.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/claws/BH1750-1.2.0.zip",
+      "archiveFileName": "BH1750-1.2.0.zip",
+      "size": 287312,
+      "checksum": "SHA-256:4ac8007f5e8f12d0cd4fb6e08d95bb26fbcbf8cdd44cfcb03fea7df67192e3dc"
+    },
+    {
+      "name": "DallasTemperature",
+      "version": "3.9.0",
+      "author": "Miles Burton \u003cmiles@mnetcs.com\u003e, Tim Newsome \u003cnuisance@casualhacker.net\u003e, Guil Barros \u003cgfbarros@bappos.com\u003e, Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Miles Burton \u003cmiles@mnetcs.com\u003e",
+      "sentence": "Arduino Library for Dallas Temperature ICs",
+      "paragraph": "Supports DS18B20, DS18S20, DS1822, DS1820",
+      "website": "https://github.com/milesburton/Arduino-Temperature-Control-Library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/milesburton/Arduino-Temperature-Control-Library.git",
+      "dependencies": [
+        {
+          "name": "OneWire"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/milesburton/DallasTemperature-3.9.0.zip",
+      "archiveFileName": "DallasTemperature-3.9.0.zip",
+      "size": 39467,
+      "checksum": "SHA-256:eb2c336107b82cf3b6eccdfd0c2e512fb28dfe66856bb52f468fce906ab4e4fe"
+    },
+    {
+      "name": "Bolder Flight Systems MPU9250",
+      "version": "1.0.1",
+      "author": "Brian Taylor \u003cbrian.taylor@bolderflight.com\u003e",
+      "maintainer": "Brian Taylor \u003cbrian.taylor@bolderflight.com\u003e",
+      "sentence": "Library for communicating with the MPU-9250 and MPU-9255 nine-axis Inertial Measurement Units (IMU).",
+      "paragraph": "This library supports both I2C and SPI communication with the MPU-9250. The MPU9250 object declaration is overloaded with different declarations for I2C and SPI communication. All other functions remain the same. Additionally, a derived class, MPU250FIFO, is included, which provides FIFO setup and data collection functionality in addition to all of the functionality included in the base MPU9250 class.",
+      "website": "https://github.com/bolderflight/MPU9250",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bolderflight/MPU9250.git",
+      "providesIncludes": [
+        "MPU9250.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bolderflight/Bolder_Flight_Systems_MPU9250-1.0.1.zip",
+      "archiveFileName": "Bolder_Flight_Systems_MPU9250-1.0.1.zip",
+      "size": 3541984,
+      "checksum": "SHA-256:f116b6957642f6e81830caa9df4c6914be08d23c8044bdbc5a5527ad9e97596e"
+    },
+    {
+      "name": "MPU9250",
+      "version": "0.4.1",
+      "author": "hideakitai",
+      "maintainer": "hideakitai",
+      "sentence": "Arduino library for MPU9250 Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking™ Device",
+      "paragraph": "Arduino library for MPU9250 Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking™ Device",
+      "website": "https://github.com/hideakitai/MPU9250",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/hideakitai/MPU9250.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/hideakitai/MPU9250-0.4.1.zip",
+      "archiveFileName": "MPU9250-0.4.1.zip",
+      "size": 34448,
+      "checksum": "SHA-256:c74a2dbe8467c8d990d6b0396c3f8407514690dd71c105f3e05fe04dbf87c107"
+    },
+    {
+      "name": "NeoNextion",
+      "version": "2.2.0",
+      "author": "Dan Nixon",
+      "maintainer": "Dan Nixon \u003cdan@dan-nixon.com\u003e",
+      "sentence": "Arduino library for controlling Nextion displays",
+      "paragraph": "Arduino library for controlling Nextion displays",
+      "website": "https://dannixon.github.io/NeoNextion",
+      "category": "Display",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DanNixon/NeoNextion.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DanNixon/NeoNextion-2.2.0.zip",
+      "archiveFileName": "NeoNextion-2.2.0.zip",
+      "size": 110043,
+      "checksum": "SHA-256:9d78acc45c91a7a476282a530bb040a59eb33241b32c1c66f239f692d837d0f5"
+    },
+    {
+      "name": "MS5xxx",
+      "version": "1.0.2",
+      "author": "Roman Schmitz \u003croman@schmitzi.net\u003e",
+      "maintainer": "Roman Schmitz \u003croman@schmitzi.net\u003e",
+      "sentence": "Library for digital pressure sensors MS5xxx by Measurement Specialties (MEAS).",
+      "paragraph": "Tested with Arduino Uno/Nano/Mico and ESP8266. Long-term tests with MS5607, working implementation for MS5611 chipset.",
+      "website": "https://github.com/Schm1tz1/arduino-ms5xxx",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Schm1tz1/arduino-ms5xxx.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Schm1tz1/MS5xxx-1.0.2.zip",
+      "archiveFileName": "MS5xxx-1.0.2.zip",
+      "size": 36707,
+      "checksum": "SHA-256:d14c3aba2da4827decdea0851136cf4acff82691f5035320f79fe0e80889d534"
     }
   ]
 }
