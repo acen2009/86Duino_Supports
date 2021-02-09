@@ -954,6 +954,189 @@
       "archiveFileName": "MS5xxx-1.0.2.zip",
       "size": 36707,
       "checksum": "SHA-256:d14c3aba2da4827decdea0851136cf4acff82691f5035320f79fe0e80889d534"
+    },
+    {
+      "name": "MySQL Connector Arduino",
+      "version": "1.2.0",
+      "author": "Dr. Charles Bell \u003cchuck.bell@oracle.com\u003e",
+      "maintainer": "Dr. Charles Bell \u003cchuck.bell@oracle.com\u003e",
+      "sentence": "Connects Arduino using Arduino Ethernet-compatible shields including the Ethernet Shield and WiFi Shield.",
+      "paragraph": "You can use this library to connect your Arduino project directly to a MySQL server without using an intermediate computer or a web- or cloud-based service. Having direct access to a database server means you can store data acquired from your project as well as check values stored in tables on the server. This also means you can setup your own, local MySQL server to store your data further removing the need for Internet connectivity. If that is not an issue, you can still connect to and store data on a MySQL server via your network, Internet, or even in the cloud!",
+      "website": "https://github.com/ChuckBell/MySQL_Connector_Arduino/wiki",
+      "category": "Communication",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ChuckBell/MySQL_Connector_Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ChuckBell/MySQL_Connector_Arduino-1.2.0.zip",
+      "archiveFileName": "MySQL_Connector_Arduino-1.2.0.zip",
+      "size": 47216,
+      "checksum": "SHA-256:05c08a02849fe27237671b272c9858e9431213c76af927f381ddf36f0cd46476"
+    },
+    {
+      "name": "Timer",
+      "version": "2.1.0",
+      "author": "Jack Christensen",
+      "maintainer": "Jack Christensen",
+      "sentence": "A fork of Simon Monk's Arduino Timer library",
+      "paragraph": "The library does not interfere with the built-in timers, it just uses 'millis' in a crude type of scheduler to decide when something needs doing.",
+      "website": "https://github.com/JChristensen/Timer",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JChristensen/Timer.git",
+      "providesIncludes": [
+        "Timer.h"
+      ],
+      "url": "https://github.com/JChristensen/Timer/archive/v2.1.zip",
+      "archiveFileName": "v2.1.zip",
+      "size": xxx,
+      "checksum": "SHA-256:xxx"
+    },
+    {
+      "name": "TimedAction",
+      "version": "1.6.0",
+      "author": "Arduino.cc",
+      "maintainer": "Arduino.cc",
+      "sentence": "TimedAction is a library for the Arduino.",
+      "paragraph": "It is created to help hide the mechanics of how to implement Protothreading and general millis() timing. It is sutied for those actions that needs to happen approximately every x milliseconds.",
+      "website": "https://playground.arduino.cc/Code/TimedAction/#CurrentVersion",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "",
+      "providesIncludes": [
+        "TimedAction.h"
+      ],
+      "url": "https://playground.arduino.cc/uploads/Code/TimedAction-1_6/index.zip",
+      "archiveFileName": "index.zip",
+      "size": xxx,
+      "checksum": "SHA-256:xxx"
+    },
+    {
+      "name": "DHT",
+      "version": "1.0.0",
+      "author": "robertinant",
+      "maintainer": "robertinant",
+      "sentence": "Arduino library for DHT11, DHT22, etc Temperature & Humidity Sensors.",
+      "paragraph": "",
+      "website": "https://github.com/energia/DHT",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/energia/DHT.git",
+      "providesIncludes": [
+        "DHT.h"
+      ],
+      "url": "https://github.com/energia/DHT/archive/master.zip",
+      "archiveFileName": "master.zip",
+      "size": xxx,
+      "checksum": "SHA-256:xxx"
+    },
+    {
+      "name": "MS5607",
+      "version": "1.3.0",
+      "author": "Amit Ate",
+      "maintainer": "Amit Ate",
+      "sentence": "Arduino Library for MS5607 pressure sensor IC",
+      "paragraph": "",
+      "website": "https://github.com/energia/DHT",
+      "category": "Other",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinkfire/MS5607.git",
+      "providesIncludes": [
+        "MS5607.h"
+      ],
+      "url": "https://github.com/thinkfire/MS5607/archive/master.zip",
+      "archiveFileName": "master.zip",
+      "size": xxx,
+      "checksum": "SHA-256:xxx"
+    },
+    {
+      "name": "DFRobotDFPlayerMini",
+      "version": "1.0.5",
+      "author": "DFRobot",
+      "maintainer": "Angelo <angelo.qiao@dfrobot.com>",
+      "sentence": "Driver for DFPlayer Mini from DFRobot",
+      "paragraph": "Easy-to-use and reliable library for DFPlayer Mini",
+      "website": "https://github.com/DFRobot/DFRobotDFPlayerMini",
+      "category": "Device Control",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobotDFPlayerMini.git",
+      "providesIncludes": [
+        "DFRobotDFPlayerMini.h"
+      ],
+      "url": "https://github.com/DFRobot/DFRobotDFPlayerMini/archive/1.0.5.zip",
+      "archiveFileName": "1.0.5.zip",
+      "size": xxx,
+      "checksum": "SHA-256:xxx"
+    },
+    {
+      "name": "DHT sensor library",
+      "version": "1.3.6",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for DHT11, DHT22, etc Temp \u0026 Humidity Sensors",
+      "paragraph": "Arduino library for DHT11, DHT22, etc Temp \u0026 Humidity Sensors",
+      "website": "https://github.com/adafruit/DHT-sensor-library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/DHT-sensor-library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/DHT_sensor_library-1.3.6.zip",
+      "archiveFileName": "DHT_sensor_library-1.3.6.zip",
+      "size": 13799,
+      "checksum": "SHA-256:e7239aaffc05e091efaaf90b8700eacbd2a4e6ec5aed8efd55fdf78cc494efbd"
+    },
+    {
+      "name": "Adafruit BMP280 Library",
+      "version": "1.0.6",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for BMP280 sensors.",
+      "paragraph": "Arduino library for BMP280 pressure and altitude sensors.",
+      "website": "https://github.com/adafruit/Adafruit_BMP280_Library",
+      "category": "Sensors",
+      "architectures": [
+        "x86"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_BMP280_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_BMP280_Library-1.0.6.zip",
+      "archiveFileName": "Adafruit_BMP280_Library-1.0.6.zip",
+      "size": 469489,
+      "checksum": "SHA-256:b9ef6d17a981ade0b11deb2a54a06d8487644dd4c1ff3550cfa0136475e56261"
     }
   ]
 }
